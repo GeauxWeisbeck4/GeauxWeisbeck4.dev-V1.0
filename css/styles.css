@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    background-color: #FEFBF3;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    color: #BBD196;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: #56556E;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+a:hover {
+    background: #3C2946;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/* Flex-Container - Thank you Wes Bos for finally helping me understand this shit. */
+
+.flex-nav ul {
+    border: 3px solid #FFD571;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.flex-nav li {
+    flex: 1;
+}
+
+.left-nav-and-content {
+    display: flex;
+}
+
+#left-nav {
+    display: flex;
+    float: left;
+    background-color: #56556E;
+    border: 3px solid #FFD571;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+#left-nav ul {
+    margin-top: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.content {
+    background-color: #56556E;
+    border: 3px solid #FFD571;
+    padding: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+    flex-grow: 1;
+    max-width: calc(100% - 50px);
+}
+
+.jumbotron {
+    display: flex;
+}
+
+h1 {
+    color: #BBD196;
+}
+
+p {
+
+    color: #FFD571;
+}
+
+button {
+    background-color: #BBD196;
+    color: #56556E;
+
+}
+
+
+
+@media all and (max-width:1000px) {
+    .flex-nav ul {
+        flex-wrap: wrap;
+    }
+
+    .flex-nav li {
+        flex: 1 1 50%;
+    }
+}
+
+@media all and (max-width:500px) {
+    .flex-nav li {
+        flex-basis: 100%;
+    }
+}
