@@ -1,8 +1,9 @@
 # GeauxWeisbeck4.dev
 My Official Website
 
-I like to code sick stuff. Creating my professional page with what I can do.
-Hit me up if you are looking up for a Full Stack Developer.
+I'm Andrew and I love coding and building beautiful websites and apps. 
+I'm currently finishing up a project for a Section4 Innovation Sprint, 
+so I can't complete all the details at the moment for my website,
+but I need to finish my project. I will be back to working on this shortly.
 
-The website should start with the index.html and I need to figure that out to post my project.
-andrew@GeauxWeisbeck4.dev
+
