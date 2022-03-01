@@ -12,4 +12,4 @@ but I need to finish my project. I will be back to working on this shortly.
   living in the Research Triangle! Connect with me!<p>
 <p>I'm also looking for projects to help out on. Whether paid or not, 
   you can contact me at andrew.weisbeck@gmail.com or through my website.</p>
- <p>I have included my resume <a href="andrewresumecv2022.pdf">here</a> for you to view</p>
+
