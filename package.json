@@ -1,0 +1,24 @@
+{
+  "name": "geauxweisbeck4.dev",
+  "version": "1.0.0",
+  "description": "Personal portfolio site",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeauxWeisbeck4/GeauxWeisbeck4.dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeauxWeisbeck4/GeauxWeisbeck4.dev/issues"
+  },
+  "homepage": "https://github.com/GeauxWeisbeck4/GeauxWeisbeck4.dev#readme",
+  "devDependencies": {
+  }
+}
